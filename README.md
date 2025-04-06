@@ -107,6 +107,8 @@ Now following: https://randomnerdtutorials.com/esp32-esp8266-plot-chart-web-serv
 
 # Else
 
+Double check
+
 Set `sdkconfig` or `menuconfig`: `CONFIG_HTTPD_MAX_REQ_HDR_LEN=1024`
 Set `sdkconfig` or `menuconfig`: `LWIP_MAX_SOCKETS` to GT 13, or 20.
 Set `sdkconfig` or `menuconfig`: `CONFIG_ESPTOOLPY_FLASHSIZE_8MB=y` and `CONFIG_ESPTOOLPY_FLASHSIZE="8MB"`
